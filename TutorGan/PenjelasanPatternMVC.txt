@@ -1,0 +1,11 @@
+Model-View-Controller (MVC) architectural pattern memisahkan aplikasi menjadi tiga komponen utama: Model, View, dan Controller.
+Pola MVC membantu Anda membuat aplikasi yang lebih dapat diuji dan lebih mudah diperbarui daripada aplikasi bersifat tradisional.
+
+Aplikasi berbasis MVC berisi:
+	- Model :		Kelas yang mewakili data aplikasi. Kelas model menggunakan logika validasi untuk mengimplementasikan aturan bisnis pada datanya. 
+					Biasanya, objek model mengambil dan menyimpan model state dalam database. Model mengambil data dari database, memberikannya ke View, atau diupdate datanya. 
+					Data yang diperbarui ditulis ke database.
+	- View :		View adalah komponen yang menampilkan UserInterface (UI) aplikasi. Umumnya, UI ini menampilkan data model.
+	- Controller :	Controller bertugas menangani request dari browser, mengambil data model, memanggil/membuka View untuk mengembalikan response.
+
+Di aplikasi MVC, View hanya menampilkan informasi. Controller menangani dan merespons input dan interaksi user
